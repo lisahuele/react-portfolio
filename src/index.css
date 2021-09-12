@@ -8,7 +8,7 @@
 :root {
   --primary: #333;
   --secondary: #F5DF4D;
-  --tertiary: ;
+  --tertiary: #939597;
   --hero: #BCBCBC;
 }
 
@@ -203,6 +203,10 @@ a:active, a:focus {
   color: var(--primary);
 }
 
+.nav-secondary:hover {
+  color: var(--tertiary);
+}
+
 .navActive {
   border-bottom: 3px solid var(--secondary);;
   padding-bottom: 3px;
@@ -378,7 +382,7 @@ transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225); /* custom
   background-color: #333;
 }
 
-/*------------------------------- ABOUT -------------------------------*/
+/*------------------------------- HOME ABOUT -------------------------------*/
 #profile {
   display: flex;
   flex-direction: row;
@@ -414,6 +418,62 @@ transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225); /* custom
   display: flex;
   gap: 50px;
   
+}
+
+/*------------------------------- ABOUT -------------------------------*/
+.about {
+  display: flex;
+  flex-direction: row;
+  padding: 5vh 15% 0vh 15%;
+  width: 100%;
+
+}
+
+@media (max-width: 1500px) {
+  .about {
+      padding: 5vh 15% 5vh 15%;
+      flex-direction: column;
+  }
+}
+
+.contentLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 8vh;
+}
+
+.profileimg {
+  max-width: 350px;
+  min-width: 300px;
+}
+
+.quote {
+  position: relative;
+}
+
+.quote:before {
+  content: "\201C";
+  font-size: 2.5em;
+  color: var(--secondary);
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  left: -3vh;
+}
+
+@media (max-width: 1500px) {
+  .contentLeft {
+      margin-bottom: 5vh;
+  }
+  .contentRight {
+      margin-left: 0;
+      font: 20px;
+  }
+  .contentRight img {
+      margin-bottom: 20px;
+  }
 }
 
 /*------------------------------- FOOTER -------------------------------*/
@@ -453,7 +513,7 @@ footer {
 }
 
 .socials img:hover  {
-  background-color: #F5DF4D;
+  background-color: var(--secondary);
 mix-blend-mode: multiply;
 transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }

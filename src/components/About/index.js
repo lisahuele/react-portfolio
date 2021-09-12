@@ -14,7 +14,7 @@ function About() {
         </p>
         <p>I have two loves, data and design. I like asking myself what drives people, what tools do they need, and how can I build those tools for them? Drawing from my management experience I can better address questions like what drives a company, what needs does a team has to address, and what skills can be supported by smart information design? I see a direct application of the skill set I produced while advancing through my retail to a career to the work required in code and design. Both are about tailoring and communicating information to enable other people to succeed.
         </p> 
-        <a class="link" href="Resume/LisaLeResume.pdf" target="_blank">View Resume</a> 
+        <a class="link" href="#resume">View Resume</a> 
     </div>
 </section>
     )
