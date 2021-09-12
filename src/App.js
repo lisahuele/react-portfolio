@@ -14,7 +14,6 @@ function App() {
       {!homeState && <Header/>}
 
       <main>
-        -- ABOUT - when selected display more info
         -- PORTFOLIO - when selected, display more info
         -- CONTACT FORM - display if selected
       </main>

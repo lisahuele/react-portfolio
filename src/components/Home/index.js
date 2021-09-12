@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from '../Header';
+import HomeAbout from '../HomeAbout';
 
 function Home() {
     return (
+    <div>
         <div className="hero-background">
             <div className="hero-text">
                 <p>Lisa Le - Full Stack Developer</p>
@@ -13,6 +15,8 @@ function Home() {
             </div>
         <Header/>
         </div>
+        <HomeAbout/>
+    </div>
     )
 }
 
