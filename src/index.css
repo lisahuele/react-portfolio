@@ -199,6 +199,14 @@ a:active, a:focus {
   color: var(--primary);
 }
 
+.nav-secondary {
+  color: var(--primary);
+}
+
+.navActive {
+  border-bottom: 3px solid var(--secondary);;
+  padding-bottom: 3px;
+}
 
 /*LOGO sliced button*/
 #navigation {
@@ -356,6 +364,18 @@ transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225); /* custom
 .slice:hover:before {
   width: 130%;
   color: white;
+}
+
+.slice-blk, .slice-blk .top, .slice-blk .bottom, .slice-blk .bottom span, .slice-blk .top span, .slice-blk:hover .top, .slice-blk:hover .bottom, .slice-blk:hover, .slice-blk:focus, .slice-blk:active, .slice-blk:before  {
+  color: #333;
+}
+
+.slice-blk {
+  border: 2px solid #333;
+}
+
+.slice-blk:before {
+  background-color: #333;
 }
 
 /*------------------------------- ABOUT -------------------------------*/
