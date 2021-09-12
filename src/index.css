@@ -581,6 +581,60 @@ transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225); /* custom
       margin: 2vh 0 0 0;
   }
 }
+/*------------------------------- CONTACT -------------------------------*/
+.contact h4 {
+  text-align: center;
+}
+
+.contact-form, form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 50%;
+  background-color: #FAF9F6;
+  border-radius: 20px;
+  padding: 5vh;
+  -webkit-box-shadow: 0 0 9px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 0 9px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 9px 0px rgba(0, 0, 0, 0.19);
+  
+}
+
+input, textarea {
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 70%;
+  border: none;
+  border-bottom: 1px solid var(--primary);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  background-color: #FAF9F6;
+  margin: 2vh 0;
+}
+
+input:focus, textarea:focus {
+  border-bottom: 2px solid var(--secondary);
+}
+
+button {
+  width: 40vh;
+  height: 4vh;
+  border: 1px solid var(--secondary);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--secondary);
+  font-family: 'Lato', serif-sans;
+  font-size: 1em;
+}
+
+button:hover {
+  border: 2px solid var(--primary);
+}
 
 /*------------------------------- FOOTER -------------------------------*/
 footer {
