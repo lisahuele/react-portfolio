@@ -1,16 +1,102 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary: ;
+  --secondary: ;
+  --tertiary: ;
+  --hero: #BCBCBC;
+}
+
+body, html {
+  min-height: 100%;
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-size: calc(15px + 0.3vw);
+  background-color: white;
+  position: relative;
+  color: #333333;
+}
+
+/*Text*/
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: calc(20px + 1.5vw);
+  font-weight: normal;
+  color: var(--hero); 
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: calc(20px + 1vw);
+}
+
+h3  {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-bottom: 1vh;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: calc(20px + 1vw);
+}
+
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: calc(20px + 1vw);
+  margin: 0;
+}
+
+p {
+  line-height: calc(20px + 1.5vh);
+  font-weight: 300;
+}
+
+/*----------Hero Section-------------*/
+.hero-section {
+  background-image: url("./assets/images/hero.png");
+  height: calc(300px + 25vw);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-section h1 {
+  margin: 0;
+  font-size: 4.5vw;
+  font-weight: normal;
+  color: #BCBCBC;
+  white-space: nowrap;
+}
+
+.image {
+  position: absolute;
+  padding: 0%;
+  top: 63%;
+  left: 23%;
+  width: 10vw;
+  height: auto;
 }
