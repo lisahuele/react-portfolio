@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.45306561.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.75cb7050.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.75cb7050.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.9f257361.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.9f257361.js.map",
+    "static/js/2.5264a877.chunk.js": "/react-portfolio/static/js/2.5264a877.chunk.js",
+    "static/js/2.5264a877.chunk.js.map": "/react-portfolio/static/js/2.5264a877.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.45306561.chunk.css.map": "/react-portfolio/static/css/main.45306561.chunk.css.map",
+    "static/js/2.5264a877.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.5264a877.chunk.js.LICENSE.txt",
+    "static/media/Hello.png": "/react-portfolio/static/media/Hello.45788449.png",
+    "static/media/LisaLeResume.pdf": "/react-portfolio/static/media/LisaLeResume.803a0188.pdf",
+    "static/media/Soul.png": "/react-portfolio/static/media/Soul.e016e664.png",
+    "static/media/cocacola.png": "/react-portfolio/static/media/cocacola.8c01a23f.png",
+    "static/media/hero.png": "/react-portfolio/static/media/hero.a622398a.png",
+    "static/media/musicvisualizer.png": "/react-portfolio/static/media/musicvisualizer.969f4a72.png",
+    "static/media/profile.png": "/react-portfolio/static/media/profile.3ef3f278.png",
+    "static/media/wastemanagement.png": "/react-portfolio/static/media/wastemanagement.5aa02ffc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f257361.js",
+    "static/js/2.5264a877.chunk.js",
+    "static/css/main.45306561.chunk.css",
+    "static/js/main.75cb7050.chunk.js"
+  ]
+}
