@@ -59,7 +59,7 @@ function Nav(props) {
                 </a>
             </li>
             <li>
-                <a href="Resume/LisaLeResume.pdf" target="_blank" className={!homeState && 'nav-secondary'}>RESUME</a>
+                <a href={require('../../assets/resume/LisaLeResume.pdf').default} className={!homeState && 'nav-secondary'}>RESUME</a>
             </li>
         </ul>
 
