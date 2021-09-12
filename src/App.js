@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Header from './components/Header';
 import Home from './components/Home'
 
 function App() {
+  const [homeState] = useState(true);
+
+
+
   return (
     <body>
       <Home/>
-      <Header/>
+      {!homeState && <Header/>}
 
       <main>
         -- ABOUT - when selected display more info
