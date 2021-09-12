@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Header from './components/Header';
 import Home from './components/Home'
+import Footer from './components/Footer'
 
 function App() {
   const [homeState] = useState(true);
@@ -17,6 +18,8 @@ function App() {
         -- PORTFOLIO - when selected, display more info
         -- CONTACT FORM - display if selected
       </main>
+
+      <Footer/>
     </body>
   );
 }
