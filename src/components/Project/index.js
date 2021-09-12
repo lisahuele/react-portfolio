@@ -50,7 +50,13 @@ function Project() {
                     </div>
                 
                     <div class="work-child">
-                        <a href={project.deploy[1]}><img className="work-img" src={require(`../../assets/images/${project.image}.png`).default} alt={project.title}/></a>
+                        <a href={project.deploy[1]}>
+                            <img 
+                                className="work-img" 
+                                src={require(`../../assets/images/${project.image}.png`).default} 
+                                alt={project.title}
+                            />
+                        </a>
                     </div>
                 </div>
             ))}

@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import About from './components/About'
 import Project from './components/Project';
+import Contact from './components/Contact';
 
 function App() {
   const [homeState, setHomeState] = useState(true);
@@ -38,7 +39,8 @@ function App() {
 
       <main>
       {!homeState && !projectSelected && !contactSelected && <About/>}
-      {!homeState && !aboutSelected && !contactSelected && <Project/> }
+      {!homeState && !aboutSelected && !contactSelected && <Project/>}
+      {!homeState && !aboutSelected && !projectSelected && <Contact/>}
       </main>
 
       <Footer/>
